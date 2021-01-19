@@ -1,0 +1,112 @@
+.heading
+{
+    display: grid;
+    grid-template-columns: 1.5fr repeat(5, 1fr);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: thistle;
+    height: 2.5rem;
+}
+
+.row
+{
+    display: grid;
+    grid-template-columns: 1.5fr repeat(5, 1fr);
+    align-items: center;
+    text-align: center;
+    margin-bottom: 0.7rem;
+}
+
+.plus
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.plus > button
+{
+    border: 2px solid  rgba(255, 123, 0, 0.945);
+    background-color: white;
+    height: 2rem;
+    width: 2rem;
+}
+
+.plus > button:hover
+{
+    background-color:  rgba(255, 123, 0, 0.945);
+    font-weight: bolder;
+    cursor: pointer;
+    color:white;
+}
+
+.remove
+{
+    border: 2px solid  rgba(255, 123, 0, 0.945);
+    background-color: white;
+    height: 2rem;
+    width: 7rem;
+    border-radius: 0.5rem;
+}
+
+.remove:hover
+{
+    cursor: pointer;
+    background-color: tomato;
+    font-weight: bold;
+    color: white;
+}
+
+.total
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.total > div:first-of-type
+{
+    margin-right: 3rem;
+}
+
+.total > button
+{
+    margin-top: 1rem;
+    width: 10rem;
+    background-color: tomato;
+    height: 2rem;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.total > button:hover
+{
+    cursor: pointer;
+    background-color: red;
+    font-weight: bold;
+}
+
+.total > a
+{
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 10rem;
+    background-color: rgb(102, 187, 76);
+    height: 2rem;
+    border-radius: 0.5rem;
+}
+
+.total > a:hover
+{
+    cursor: pointer;
+    background-color: rgb(47, 212, 41);
+    font-weight: bold;
+}

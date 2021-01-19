@@ -1,0 +1,31 @@
+nav
+{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(51, 105, 223);
+}
+
+nav > div
+{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+nav > div:first-of-type
+{
+    font-size: 1.2rem;
+}
+
+nav > div > a
+{
+    text-decoration: none;
+    padding: 0.7em;
+    color:white;
+}
+
+nav > div > a:hover
+{
+    font-weight: bold;
+    background-color: rgb(98, 146, 218);
+}

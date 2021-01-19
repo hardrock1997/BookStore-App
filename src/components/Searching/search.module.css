@@ -1,0 +1,19 @@
+.inputBar
+{
+    display: flex;
+    align-items: center;
+}
+
+.inputBar > input
+{
+    width: 20rem;
+    height: 2rem;
+    border-radius: 1rem;
+}
+
+.inputBar > a
+{
+    margin-left:0.5rem;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+}
