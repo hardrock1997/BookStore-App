@@ -3,6 +3,7 @@ import CartList from "./CartList";
 import CartHeading from "./CartHeading";
 import { BookConsumer } from "../../context";
 import CartTotal from './CartTotal'
+import classes from "./cartitem.module.css";
 
 class Cart extends Component {
   render() {
@@ -20,7 +21,7 @@ class Cart extends Component {
                 </React.Fragment>
               );
             } else {
-              return <div>Cart is Empty</div>;
+              return <div className={classes.empty}>Cart is Empty</div>;
             }
           }}
         </BookConsumer>

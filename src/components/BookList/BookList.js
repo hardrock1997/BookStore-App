@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import classes from "./booklist.module.css";
 import {BookConsumer} from '../../context';
 import Card from '../Card/Card'
+import Search from '../Searching/Search'
 
 class BookList extends Component {
   
@@ -15,9 +16,10 @@ class BookList extends Component {
     </BookConsumer>
   
     return (
-      <div className={classes.container}>
+        <div className={classes.container}>
+        <Search />
         {output}
-      </div>
+        </div>
     )
   }
 }

@@ -20,7 +20,7 @@ class BookProvider extends Component {
         "https://s3-ap-southeast-1.amazonaws.com/he-public-data/books8f8fe52.json"
       )
       .then((res) => {
-        let data = res.data.slice(0,200);    
+        let data = res.data.slice(0,400);    
         for (let i of data) {
           i.inCart = false;
           i.quantity = 0;
@@ -28,8 +28,6 @@ class BookProvider extends Component {
         }
         this.setState(() => {
           return {books:[...data]}
-        },() => {
-          console.log("Context", this.state)
         })
       })
   }

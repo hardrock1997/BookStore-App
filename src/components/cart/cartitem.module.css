@@ -110,3 +110,12 @@
     background-color: rgb(47, 212, 41);
     font-weight: bold;
 }
+
+.empty
+{
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+
+}

@@ -6,12 +6,6 @@ nav
     background-color: rgb(51, 105, 223);
 }
 
-nav > div
-{
-    display: flex;
-    flex-wrap: nowrap;
-}
-
 nav > div:first-of-type
 {
     font-size: 1.2rem;

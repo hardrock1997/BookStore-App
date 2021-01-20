@@ -2,18 +2,36 @@
 {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .inputBar > input
 {
-    width: 20rem;
+    width: 100%;
     height: 2rem;
-    border-radius: 1rem;
+    border-radius: 0.6rem;
+    margin-bottom: 1rem;
+
 }
 
 .inputBar > a
 {
+    text-decoration: none;
+    height: 2rem;
+    width: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-left:0.5rem;
-    border: 2px solid white;
+    border: 2px solid rgb(121, 12, 12);
     border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color:black;
+}
+
+.inputBar > a:hover
+{
+    background-color: rgb(184, 68, 68);
+    color:white;
 }
